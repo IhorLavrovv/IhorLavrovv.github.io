@@ -1,0 +1,39 @@
+.chooseInstrument{
+    padding:20px 10%;
+    
+}
+.chooseInstrument>h1{
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: #503737;
+    text-align: center;
+    margin: 50px 10%;
+}
+.chooseInstrument>table{
+    border-collapse: collapse;
+    width:100%;
+    text-align: center;
+    margin: 50px 0;
+}
+.chooseInstrument>table>tbody>tr>td{
+    border: 1px solid grey;
+    width: 25%;
+    height: 400px;
+    padding:0;
+}
+.chooseInstrument>table>tbody>tr>td>div{
+    width: 100%;
+    height: 200px;
+}
+.chooseInstrument>table>tbody>tr>td>div>a>img{
+    margin: 20px 2%;
+    width: 80%;
+}
+.chooseInstrument>table>tbody>tr>td>a>p{
+    margin-top: 50px;
+    font-size: 2rem;
+    color: #503737;
+    font-family: Roboto;
+    font-weight: 200;
+}

@@ -1,0 +1,24 @@
+.howToBuy{
+    padding: 50px 10%;
+}
+
+.howToBuy h2{
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+.howToBuy p{
+    margin:10px 0;
+}
+.howToBuy a{
+    color: #af9559;
+}
+.listDelivery{
+     list-style-image: url("../img/checkbox.gif");
+}
+.listDelivery>li>ul{
+    padding-left:4%;
+    list-style-image: url("../img/checkbox.gif");
+}
+.howToBuy{
+    line-height: 30px;
+}

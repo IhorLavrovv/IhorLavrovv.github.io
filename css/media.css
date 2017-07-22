@@ -1,0 +1,445 @@
+@media screen and (min-width: 200px) and (max-width:527px) {
+    html{
+        font-size: 9px;
+    }
+    .navMenu>nav>ul>li{
+        min-width: 60px;
+    }
+    .logoHolder>a>img.miniLogo{
+        display: block;
+    }
+    .logoHolder>a>img.logo{
+        display: none;
+    }
+     .searchHolder{
+        display: none !important;
+    }
+    .headerFirstLine{
+        padding: 20px 3%;
+        text-align: center;
+    }
+    .headerInfoHolder{
+        min-width: 25%;
+    }
+    .headerFirstLine>nav{
+        width: 50%;
+       display: block;
+       margin: 5px auto;
+    }
+    .headerFirstLine>nav>ul>li{
+        margin:0;
+    }
+    .headerFirstLine>ul{
+        display: block;
+         width: 50%;
+         margin:0 auto
+    }
+    .headerFirstLine>nav>ul>li:nth-child(2){
+       display:none;
+   }.headerFirstLine>nav>ul>li:nth-child(3){
+       display:none;
+   }
+   .headerInfoHolder>p:nth-child(2){
+       display:none !important;
+   }
+      .topMenu{
+        text-align: center;
+    }
+
+    .tableHolder,.salesArrow,.textHolder,#slider{
+       display: none;
+    }
+      .hiddenText{
+        display: block;
+    }
+    .hiddenText>a{
+        color:blue;
+    }
+    .visibleText{
+        display: none;
+    }
+    .sales{
+        padding: 20px 3%;
+    }
+    .navMenu>nav>ul>li{
+        display: block;
+        width: 50%;
+    }
+     .navMenu>nav>ul>li:hover ul{
+        left:-9999999px;
+         opacity: 0;
+     }
+     .socialLogo{
+        display: none;
+    }
+    footer{
+        text-align: center;
+        padding: 20px 10%;
+    }
+    footer>div{
+        width: 60%;
+    }
+    footer>div:nth-child(2){
+        display: block;
+        margin:auto;
+    }
+   .imageGallery, .video{
+       display: none;
+   }
+    .chooseInstrument>h1{
+        margin: 10px 10%;
+    }
+     .chooseInstrument>table{
+       margin-top:10px ;
+       margin-bottom: 10px;
+   }
+    .chooseInstrument>table>tbody>tr>td{
+        height:120px;
+    }
+    .chooseInstrument>table>tbody>tr>td>div{
+        height:80px;
+    }
+   .chooseInstrument>table>tbody>tr>td>a>p{
+       margin-top:0;
+   }
+   .instrument>aside{
+       display: none;
+   }
+   .instrument>div,.instrument>div>article{
+       width: 100%;
+   }
+   .inlineText{
+    margin:0;
+    }
+    .listDelivery>li>ul {
+      padding-left: 8%;
+    }
+     footer>div{
+      width: 100%;
+      margin: 0 auto !important;
+      text-align: center;
+    }
+}
+@media screen and (min-width: 527px) and (max-width:600px) {
+    html{
+        font-size: 12px;
+    }
+     .navMenu>nav>ul>li{
+        display: block;
+        width: 50%;
+    }
+     .headerFirstLine>ul{
+        min-width: 30%;
+    }
+     .searchHolder{
+        display: none !important;
+    }
+    .headerInfoHolder{
+        min-width: 25%;
+    }
+    .headerFirstLine>nav{
+        min-width:25%;
+        width: 25%;
+    }
+   
+   .headerInfoHolder>p:nth-child(2),.video{
+       display:none !important;
+   }
+    .topMenu{
+        text-align: center;
+    }
+    
+    .tableHolder,.salesArrow,.textHolder,#slider{
+       display: none;
+    }
+    .hiddenText{
+        display: block;
+    }
+     .hiddenText>a{
+        color:blue
+    }
+    .visibleText{
+        display: none;
+    }
+    .sales{
+        padding: 20px 3%;
+    }
+     .navMenu>nav>ul>li:hover ul{
+        left:-9999999px;
+         opacity: 0;
+     }
+     .navMenu>nav>ul>li>ul>li{
+         padding-top: 2px;
+     }
+     .socialLogo{
+        display: none;
+    }
+     .headerFirstLine>nav>ul>li:nth-child(2){
+       display:none;
+   }.headerFirstLine>nav>ul>li:nth-child(3){
+       display:none;
+   }
+   .imageGallery{
+       display: none;
+   }
+   .chooseInstrument>h1{
+        margin: 10px 10%;
+    }
+     .chooseInstrument>table{
+       margin-top:10px ;
+       margin-bottom: 10px;
+   }
+    .chooseInstrument>table>tbody>tr>td{
+        height:200px;
+    }
+    .chooseInstrument>table>tbody>tr>td>div{
+        height:120px;
+    }
+   .chooseInstrument>table>tbody>tr>td>a>p{
+       margin-top:0;
+   }
+   .inlineText{
+    margin:0;
+    }
+    .listDelivery>li>ul {
+      padding-left: 8%;
+    }
+     footer>div{
+      width: 100%;
+      margin: 0 auto !important;
+      text-align: center;
+    }
+ 
+}
+@media screen and (min-width: 600px) and (max-width:717px) {
+    html{
+        font-size: 12px;
+    }
+     .headerFirstLine>ul{
+        min-width: 20%;
+    }
+     .searchHolder{
+        display: none !important;
+    }
+    .headerInfoHolder{
+        min-width: 25%;
+    }
+    .headerFirstLine>nav{
+        min-width: 20%;
+    }
+   
+    .salesArrow{
+        width:7%;
+    }
+   .headerInfoHolder>p:nth-child(2){
+       display:none !important;
+   }
+    .topMenu{
+        text-align: center;
+    }
+     .tableHolder>table>tbody>tr>td:nth-child(4),.video{
+        display:none !important;
+    }
+     .tableHolder>table>tbody>tr>td:nth-child(3){
+        display:none !important;
+    }
+    .tableHolder>table{
+        width: 100%;
+        margin: auto;
+    }
+    .textHolder,#slider{
+       display: none;
+   }
+    .sales{
+        padding: 20px 3%;
+    } .navMenu>nav>ul>li>ul{
+        margin:0;
+        top:45px;
+        padding-top:20px;
+        height:130px;
+    }
+     .navMenu>nav>ul>li>ul>li{
+         padding-top: 2px;
+         padding-left: 10px;
+         padding-right: 0;
+         width: 80%;
+     }
+     .socialLogo{
+        display: none;
+    }
+     .headerFirstLine>nav>ul>li:nth-child(2){
+       display:none;
+   }.headerFirstLine>nav>ul>li:nth-child(3){
+       display:none;
+   }
+    .chooseInstrument>table>tbody>tr>td{
+        height:200px;
+    }
+    .chooseInstrument>table>tbody>tr>td>div{
+        height:120px;
+    }
+   .chooseInstrument>table>tbody>tr>td>a>p{
+       margin-top:0;
+   }
+   .inlineText{
+    margin:0;
+    }
+  .listDelivery>li>ul {
+      padding-left: 8%;
+    }
+     footer>div{
+      width: 100%;
+      margin: 0 auto !important;
+      text-align: center;
+    }
+}
+
+@media screen and (min-width: 717px) and (max-width:859px) {
+    html{
+        font-size: 12px;
+    }
+     .searchHolder{
+        display: none !important;
+    }
+      .topMenu{
+        text-align: center;
+    }
+    .headerInfoHolder>p:nth-child(2){
+       display:none !important;
+   }
+     .tableHolder>table>tbody>tr>td:nth-child(4){
+        display:none !important;
+    }
+     .tableHolder>table>tbody>tr>td:nth-child(3){
+        display:none !important;
+    }
+    .textHolder,#slider{
+       display: none;
+   }
+   .sales{
+        padding: 20px 3%;
+    }
+    .salesArrow{
+        width:7%;
+    }
+    .navMenu>nav>ul>li>ul{
+        margin:0;
+        top:50px;
+        padding-top:20px;
+        height:130px;
+    }
+     .navMenu>nav>ul>li>ul>li{
+         padding-top: 2px;
+     }
+    .socialLogo{
+        display: none;
+    }
+     .headerFirstLine>nav>ul>li:nth-child(2){
+       display:none;
+   }.headerFirstLine>nav>ul>li:nth-child(3){
+       display:none;
+   }
+    .headerFirstLine>ul{
+       min-width: 15%;
+   }
+     .headerFirstLine>nav{
+       width:15%;
+       min-width:15%;
+   }
+    .chooseInstrument>table>tbody>tr>td{
+        height:200px;
+    }
+    .chooseInstrument>table>tbody>tr>td>div{
+        height:120px;
+    }
+   .chooseInstrument>table>tbody>tr>td>a>p{
+       margin-top:0;
+   }
+   .inlineText{
+    margin:0;
+    }
+    .listDelivery>li>ul {
+      padding-left: 8%;
+    }
+    footer>div{
+      width: 100%;
+      margin: 0 auto !important;
+      text-align: center;
+    }
+}
+
+@media screen and (min-width: 859px) and (max-width:987px) {
+    html{
+
+        font-size: 12px;
+    }
+    .searchHolder{
+        display: none !important;
+    }
+    .topMenu{
+        text-align: center;
+    }
+    .tableHolder>table>tbody>tr>td:nth-child(4){
+        display:none !important;
+    }
+    .textHolder{
+       display: none;
+   }
+   .headerFirstLine>nav{
+       width:30%;
+   }
+    .headerInfoHolder{
+       min-width: 380px;
+   }
+    .headerInfoHolder>p{
+        margin:0 !important;
+    }
+   
+    .headerFirstLine>nav>ul>li:nth-child(2){
+       display:none;
+   }.headerFirstLine>nav>ul>li:nth-child(3){
+       display:none;
+   }
+   .headerFirstLine>ul{
+       min-width: 15%;
+   }
+     .headerFirstLine>nav{
+       width:15%;
+       min-width:15%;
+   }
+    
+
+}
+@media screen and (min-width: 987px) and (max-width:1200px) {
+    html{
+        font-size: 12px;
+    }
+   .textHolder{
+       display: none;
+   }
+    .headerInfoHolder{
+       min-width: 380px;
+   }
+    .headerInfoHolder>p{
+        margin:0!important;
+    }
+     .headerFirstLine>nav{
+       width:auto;
+       min-width: 303px;
+   }
+
+}
+@media screen and (min-width: 1262px) and (max-width:1424px) {
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1424px) and (max-width:1600px) {
+    html{
+        font-size: 18px;
+    }
+    .tableHolder>table>tbody>tr>td>div{
+      height:300px;
+      vertical-align: middle;
+    }
+}

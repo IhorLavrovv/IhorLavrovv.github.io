@@ -1,0 +1,18 @@
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/10479.ttf') format('ttf');
+    font-weight: 200;
+}
+html{
+    font-size: 14px;
+    font-family: Tahoma;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}

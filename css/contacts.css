@@ -1,0 +1,40 @@
+.contacts{
+    padding: 50px 10%;
+}
+.contacts>h1{
+    margin: 20px 0;
+}
+#contactsForm{
+    width: 100%;
+}
+#contactsForm>p{
+    margin: 20px 0;
+}
+#contactsForm>p>label{
+    font-size: 1.2rem;
+    vertical-align: top;
+    display: block;
+    margin:5px 0;
+}
+#contactsForm>p>input{
+    font-size:1.2em;
+    vertical-align: top;
+    -ms-word-wrap: break-word;
+        word-wrap: break-word;
+}
+textarea{
+    font-size: 1.2em;
+    
+}
+#Button{
+    background: #0af;
+    border: none;
+    padding:2px 1%;
+    font-size: 2rem;
+    border: 1px solid black;
+}
+#Button:hover{
+    background-color: #0981c4;
+    border: 1px solid black;
+    cursor: pointer;
+}

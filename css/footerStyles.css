@@ -1,0 +1,33 @@
+footer{
+    width:80%;
+    background: #5d5555;
+    padding: 70px 10%;
+    color:white;
+}
+footer>div{
+    display: inline-block;
+    vertical-align: top;
+    width:30%;
+    line-height: 30px;
+    min-width: 115px;
+}
+footer>div:nth-child(1){
+    
+}
+footer>div>p{
+    margin-top: 10px;
+}
+footer>div:nth-child(2){
+    margin-left: 35%;
+    
+}
+
+.socialLogo{
+    margin-top:5px;
+}
+footer a{
+    text-decoration: underline;
+}
+.noUnderline{
+    text-decoration: none;
+}

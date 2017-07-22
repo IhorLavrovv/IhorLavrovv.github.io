@@ -1,0 +1,89 @@
+.sales{
+    padding: 100px 10px;
+}
+.sales>h1{
+    font-family: Roboto;
+    font-weight: 200;
+    text-align: center;
+    font-size: 2.8571rem;
+    color: #503737;
+    margin-bottom: 50px;
+}
+.salesArrow{
+    width:10%;
+    height: 500px;
+    display: inline-flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.salesArrow>img{
+    display: block;
+    min-height: 1%;
+}
+.tableHolder{
+    width:79%;
+    vertical-align: top;
+    display: inline-block;
+}
+.tableHolder>table{
+    width: auto;
+    border-collapse: collapse;
+}
+.tableHolder>table>tbody>tr>td{
+    width: 25%;
+    border: 1px solid grey;
+    
+}
+.tableHolder>table>tbody>tr>td:hover{
+    width: 25%;
+    border: 1px solid grey;
+    outline: black solid 5px ;
+    outline-style: outset;
+}
+.tableHolder>table>tbody>tr>td>figure{
+    display: flex;
+    width:100%;
+    height: 355px;
+    text-align: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.tableHolder>table>tbody>tr>td>figure>img{
+    display:block;
+    vertical-align: middle;
+    
+}
+.tableHolder>table>tbody>tr>td>div{
+    width: auto;
+    height: 140px;
+    text-align: center;
+    padding: 0 10%;
+}
+.tableHolder>table>tbody>tr>td>div>h5{
+    font-size: 1.1428rem;
+    color:#444444;
+}
+.tableHolder>table>tbody>tr>td>div>p{
+    margin-top: 10px;
+    font-size: 0.8572rem;
+    margin-bottom: 10px;
+}
+.tableHolder>table>tbody>tr>td>div>h4{
+    color: #E73939;
+    font-size: 1.2857rem;
+}
+.tableHolder>table>tbody>tr>td>div>h4>span{
+    color: black;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+.visibleText{
+    display: block;
+}
+.hiddenText{
+    display: none;
+}

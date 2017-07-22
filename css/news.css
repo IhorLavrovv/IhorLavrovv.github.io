@@ -1,0 +1,29 @@
+.news{
+    padding: 20px 10%;
+}
+.news>article{
+    margin: 50px 0;
+}
+.news>article>h2{
+    margin: 20px 0;
+}
+.news>article>h2>a{
+    font-size: 2rem;
+    color: #049AFF;
+}
+.news>article>h2>a:hover{
+    color: #337ab7;
+    text-decoration: underline;
+}
+.inline{
+    display: inline-block;
+    margin: 20px 2% 20px 0;
+    vertical-align: top;
+}
+.inlinePict{
+    width:25%;
+    min-width: 205px;
+}
+.inlineText{
+    width: 65%;
+}

@@ -1,0 +1,26 @@
+.companyDescription{
+    padding: 20px 10%;
+    font-family: Tahoma;
+    font-weight: 200;
+    background:#f4f3eb;
+}
+.companyDescription>h1{
+    margin:20px 5%;
+}
+.companyDescription>p{
+    line-height: 30px;
+}
+.companyDescription>div{
+    width: 100%;
+    text-align: center;
+}
+.companyDescription>div>img{
+    margin: 20px 1%;
+  
+}
+.imageGallery{
+    margin: 20px 0;
+}
+section.companyDescription>div.video{
+    width: 60%:
+}

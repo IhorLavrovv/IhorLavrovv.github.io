@@ -1,0 +1,136 @@
+.topMenu{
+    padding:20px 10%;
+    border-bottom: 1px solid red;
+}
+.topMenu>div{
+      display: inline-block;
+      vertical-align: middle;
+}
+.logoHolder{
+    text-align: center;
+    color:#777777;
+}
+.topMenu>div.searchHolder{
+        margin: 0 0 0 5%;
+        border: 1px solid grey;
+        padding: 0 1%;
+        float: right;
+}   
+.topMenu>div>input{
+    height: 40px;
+    border:none;
+    outline: none;
+}
+.searchHolder>img{
+    margin-top: 10px;
+    vertical-align: top;
+}
+.logo{
+    display: block;
+}
+.miniLogo{
+    display:none;
+}
+.basket{
+    min-width: 150px;
+    width: 15%;
+    float: right;
+    padding:  1%;
+    border: 1px solid grey;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+    vertical-align: middle;
+    min-height: 46px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    display: none !important;
+}
+
+.basket>div,.basket>p, .basket>img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.basket>div{
+    margin-left: 10%;
+    padding: 1.8%;
+    text-align: center;
+    color:white;
+    width: 15%;
+    background-color: #c19d47;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+}
+.navMenu{
+    
+}
+.navMenu>nav{
+    width:100%;
+}
+.navMenu>nav>ul{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+    background: #000;
+    border-bottom: 2px solid #483f40;
+}
+.navMenu>nav>ul>li{
+    display: inline-block;
+    margin:0 auto;
+    font-size: 1.214rem ;
+    font-weight: 200;
+    color: white;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 1% 0.5%;
+    position: relative;
+}
+.navMenu>nav>ul>li>a{
+    color:white;
+    width: 100%;
+}
+.navMenu>nav>ul>li>a:hover{
+    color: #C1A25A;
+    
+}
+.navMenu>nav>ul>li>ul>li{
+      color: #C1A25A;
+}
+.navMenu>nav>ul>li:hover ul{
+    left:0;
+    opacity: 1;
+}
+.navMenu>nav>ul>li>ul{
+    position: absolute;
+    -webkit-border-radius: 10%;
+            border-radius: 10%;
+    background: rgba(0,0,0,0.5);
+    width:100%;
+    top: 60px;
+    color: black;
+    left: -999999px;
+    height: 200px;
+    z-index:12;
+    opacity: 0;
+    -webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+         -o-transition: all 0.2s;
+            transition: all 0.2s;
+}
+.navMenu>nav>ul>li>ul>li{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 20px 10% 20px 3%;
+}
+.navMenu>nav>ul>li>ul>li>img{
+     margin-right: 20px;
+}
+.navMenu>nav>ul>li>ul>li>a{
+    color:white;
+   margin-right: 20px;
+}

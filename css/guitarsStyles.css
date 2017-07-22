@@ -1,0 +1,98 @@
+.instrument{
+    padding: 50px 10%;
+}
+.instrument>aside{
+    width: 20%;
+    display: inline-block;
+}
+fieldset{
+    margin: 20px 0;
+}
+legend{
+    margin-left: 10%;
+}
+div>div>input{
+    margin: 10px 3% 10px 10%;
+}
+.instrument>div{
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+div>h1{
+    text-align:left;
+    margin-left: 5%;
+}
+.instrumentShelf{
+    display: inline-block;
+    min-width: 185px;
+    max-width: 300px;
+    width: 25%;
+    border: 1px solid grey;
+    height: 173px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 200;
+    vertical-align: top;
+    margin: 20px 3%;
+}
+
+.instrumentShelf>p{
+    margin: 10px 0;
+}
+.instrumentShelf>.imageIcon{
+    margin:0 auto;
+}
+.instrumentShelf:hover p{
+    color:#0099ff
+}
+.goodsPicture{
+    height: 96px;
+}
+.goodsInfo{
+    vertical-align: middle;
+        font-size:0;
+
+}
+.goodsInfo>div{
+    display: inline-flex;
+    height: 40px;
+    width: 50%;
+    border:none;
+    margin:0;
+    vertical-align: top;
+    padding:0;
+}
+.goodsInfo>div{
+    background: #CCC;
+    font-size: 1rem;
+}
+.goodsInfo>div:nth-child(2){
+    background:#ed145b;
+}
+.goodsInfo>div:nth-child(2):hover{
+    background:#0099ff;
+}
+.goodsInfo>div:nth-child(2):hover button{
+    background:#0099ff;
+}
+.goodsInfo>div>p{
+    margin: auto;
+}
+.goodsInfo>div>p>span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.goodsInfo>div>button{
+    background:#ed145b;
+    color:white;
+    font-weight: bold;
+    font-size: 1rem;
+    vertical-align: top;
+    margin: auto;
+    border:none;
+}
+filedset{
+    margin: 20px 0;
+}

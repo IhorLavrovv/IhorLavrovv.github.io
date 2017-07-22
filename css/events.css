@@ -1,0 +1,11 @@
+section.companyDescription{
+    background: white;
+}
+.companyDescription>ul{
+    line-height: 30px;
+    
+}
+.eventsList{
+    list-style-image: url("../img/checkbox.gif");
+    list-style-position: inside;
+}

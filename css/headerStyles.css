@@ -1,0 +1,49 @@
+header{
+    width: 100%;
+    background-color: #af9559;
+}
+.headerFirstLine{
+    width: auto;
+    padding: 20px 10% 17px 10%;
+    color:white;
+}
+.headerInfoHolder>p, nav, .headerInfoHolder{
+    display: inline-block;
+}
+.headerInfoHolder{
+    min-width: 49%;
+    font-size: 1rem;
+}
+.headerInfoHolder>p:nth-child(2){
+    margin-left: 6.6666%;
+}
+.headerInfoHolder>p>img{
+    vertical-align: middle;
+}
+.headerFirstLine>nav{
+    
+}
+.headerFirstLine>nav{
+    width: 40%;
+    min-width: 33.333333%;
+}
+.headerFirstLine>nav>ul{
+    display: inline-block;
+    width: 80%;    
+}
+.headerFirstLine>ul{
+    display: inline-block;
+    width: 10%;
+    font-size: 1rem;
+}
+.headerFirstLine>ul>li{
+    display: inline;
+    border-bottom: 1px dashed white;
+
+}
+.headerFirstLine>nav>ul>li{
+    display: inline;
+    margin-left: 10%;
+    border-bottom: 1px solid white;
+    font-size: 1rem;
+}
